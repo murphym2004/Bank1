@@ -1,6 +1,6 @@
 services:
   bankingsystemaccountservice:
-    image: ghcr.io/murphym2004/banking_systems_account_service/app
+    image: ghcr.io/murphym2004/account-service/app
     env_file: ./.env
     ports:
       - "8081:8081"
